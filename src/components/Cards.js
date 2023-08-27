@@ -29,7 +29,7 @@ const Cards = () => {
                     return (
                         <Link to={`/detail/${e.id}`}>
                         <div key={i} className='card font-medium shadow-lg p-2 hover:-translate-y-3 cursor-pointer mt-6 transition-all duration-500'>
-                            <div className='image'><img className='h-60 md:h-72' alt="image link not found" src={e.image || 'https://th.bing.com/th/id/R.4f23cc00214033cfd763a8758c308563?rik=g34m7WH166P%2fJA&riu=http%3a%2f%2fbra3.org%2fnot_found.png&ehk=mdYHaauK3wGDbbLzjetxPm8406z2bbrqp5bhz%2b0CKWA%3d&risl=&pid=ImgRaw&r=0'} /></div>
+                            <div className='image'><img className='h-60 md:h-72' alt="image link not found" src={e.image || './R.png'} /></div>
                             <h1>{e.title}</h1>
                             <h1 className='flex itme-center mr-2'><span className='text-gray-500 mt-1 mr-1'>Rating:</span>
                                 <ReactStars
