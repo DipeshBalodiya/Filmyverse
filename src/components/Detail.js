@@ -6,7 +6,7 @@ import { doc } from 'firebase/firestore'
 import { db } from '../firebase/firebase'
 import { ThreeCircles } from 'react-loader-spinner'
 import Reviews from './Reviews'
-import R form '../components/images/R.png'
+import R from '../components/images/R.png'
 
 
 
